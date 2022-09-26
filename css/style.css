@@ -1,0 +1,77 @@
+/*Custom fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+
+:root {
+    --main: 'Orbitron', sans-serif;
+    --purple: rgb(64, 61, 132);
+    --raisin-black: #2e282a;
+    --tiffany-blue: #17bebb;
+    --cedar-chest: #cd5334;
+}
+html {
+    font-family: 62.5%;
+}
+body {
+    font-family: var(--main);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--raisin-black);
+
+}
+.title {
+    font-size: 2rem;
+    color: rgb(255, 239, 239);
+}
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.field {
+    color: #fff;
+    margin: 1rem;
+    background-color: rgba(37, 37, 37, 0.453);
+    display: block;
+    padding: .8rem;
+    font-size: 1.6rem;
+    border: solid .2rem var(--cedar-chest);
+}
+.field:focus {
+    outline: 2px;
+    border-width: .2rem;
+}
+.select {
+    text-align: center;
+    width: 93%;
+}
+.btn {
+    width: 93%;
+    padding: .8rem;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    background-color: var(--cedar-chest);
+    color: #fff;
+    border: .2rem solid #fff;
+}
+
+.result {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-shadow: .1rem .1rem .3rem rgba(205, 83, 52, 0.764), -.1rem -.1rem .3rem rgba(205, 83, 52, 0.764);
+}
