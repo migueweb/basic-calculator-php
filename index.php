@@ -1,4 +1,7 @@
 <?php
+if($_POST && empty($_POST['number_1']) && empty($_POST['number_2']) ){
+    header('Location: index.php');
+}
 if(isset($_POST['number_1']) && isset($_POST['number_2']) && is_numeric($_POST['number_1']) && is_numeric($_POST['number_2']))
 {
 
