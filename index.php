@@ -55,8 +55,8 @@ switch ($operation) {
             <select class="field select"name="operation">
                 <option class="option" value="0">+</option>
                 <option class="option" value="1">-</option>
-                <option class="option" value="2">*</option>
-                <option class="option" value="3">/</option>
+                <option class="option" value="2">×</option>
+                <option class="option" value="3">÷</option>
             </select>
             
             <input class="field" type="number" name="number_2">
