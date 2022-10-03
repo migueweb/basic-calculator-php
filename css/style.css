@@ -44,11 +44,12 @@ body {
 .field {
     color: #fff;
     margin: 1rem;
-    background-color: rgba(37, 37, 37, 0.453);
+    background-color: rgba(49, 49, 49, 0.453);
     display: block;
     padding: .8rem;
     font-size: 1.6rem;
     border: solid .2rem var(--cedar-chest);
+    box-shadow: .2rem .2rem rgba(0,0,0, 0.3);
 }
 .field:focus {
     outline: 2px;
